@@ -1346,7 +1346,7 @@ app.post('/add-money', (req, res) => {
             const mailOptions = {
                 from: 'barclaysbanking00@gmail.com',
                 to: email,
-                subject: 'Money Debit',
+                subject: 'Money deposit',
                 text: `Dear ${user.name},\n\nRs.${amount} has been deposited to your account. Your current balance is now Rs.${user.balance}.\n\nThank you for using our service!`
             };
 
