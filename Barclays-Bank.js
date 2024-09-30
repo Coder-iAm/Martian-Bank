@@ -148,12 +148,12 @@ app.get('/dashboard', (req, res) => {
         <img src="uploads/Logo.png" alt="Barclays Logo">
         <h2>BARCLAYS <sub class="onlinebank">Online Banking Service <sup class="onlinebank">TM</sup></sub></h2>
         <img class="profilepic" src="${userData.profile_pic}"
-            alt="profilepic" srcset="">
+            alt="profilepic" onerror="this.onerror=null; this.src='uploads/default-profile.jpg';" srcset="">
     </div>
 
     <!-- Profile Popup -->
     <div class="profile-popup" id="profilePopup">
-        <img src="${userData.profile_pic}" alt="Profile Image">
+        <img src="${userData.profile_pic}" alt="Profile Image" onerror="this.onerror=null; this.src='uploads/default-profile.jpg';">
         <h4>${userData.name}</h4>
         <p>Account No: ${userData.account_number}</p>
         <p>UPI Id: ${userData.upi_id}</p>
