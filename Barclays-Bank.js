@@ -138,6 +138,7 @@ app.get('/dashboard', (req, res) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barclays Banking Dashboard</title>
     <link rel="stylesheet" href="Style.css">
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
@@ -536,6 +537,7 @@ app.get('/Email-valid.html', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email Verification</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Style.css">
 </head>
 <body id="login-page">
@@ -637,6 +639,7 @@ app.get('/', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barclays Banking Customer</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -759,6 +762,7 @@ app.get('/Index.html', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barclays Banking Customer</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -880,6 +884,7 @@ app.get('/Login-page.html', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login account</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Style.css">
 </head>
 <body id="login-page">
@@ -954,6 +959,7 @@ app.get('/Sign-up.html', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Style.css">
 </head>
 
@@ -1188,6 +1194,7 @@ app.post('/sign-up-data', upload.single('profile-pic'), (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Varify Email</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Style.css">
 </head>
 <body id="login-page">
@@ -1359,6 +1366,7 @@ app.post('/add-money', (req, res) => {
                         <meta charset="UTF-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
                         <title>Transaction Confirmation</title>
+                            <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
                         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Link to Font Awesome -->
                         <style>
                             body {
@@ -1525,6 +1533,7 @@ app.post('/withdraw-money', (req, res) => {
                         <meta charset="UTF-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
                         <title>Transaction Confirmation</title>
+                            <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
                         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Link to Font Awesome -->
                         <style>
                             body {
@@ -1722,6 +1731,7 @@ app.post('/send-money', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transaction Confirmation</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Link to Font Awesome -->
     <style>
         body {
@@ -1836,6 +1846,7 @@ app.get('/about.html', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Barclays Banking</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -1926,6 +1937,7 @@ app.get('/Services.html', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barclays Banking Services</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -2013,6 +2025,7 @@ app.get('/ePaylLite.html', (req, res) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ePaylite</title>
     <link rel="stylesheet" href="Style.css">
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
@@ -2096,6 +2109,7 @@ app.get('/donations.html', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barclays Banking Donations</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -2182,6 +2196,7 @@ app.get('/Privacy-policies.html', (req, res) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policies</title>
     <link rel="stylesheet" href="Style.css">
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
@@ -2280,6 +2295,7 @@ app.get('/Terms.html', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms & Conditions</title>
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -2367,6 +2383,7 @@ app.get('/Barclays-Loan.html', (req, res) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barclays Loan</title>
     <link rel="stylesheet" href="Style.css">
+        <link rel="icon" href="uploads/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
