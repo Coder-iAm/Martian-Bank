@@ -46,7 +46,7 @@ connection.connect((err) => {
     service: 'gmail',
     auth: {
         user: 'barclaysbanking00@gmail.com',
-        pass: 'ixzp kjzm bezh ijuy' // Use your generated App Password
+        pass: 'mhev wsau maom ohpo' // Use your generated App Password
     }
 });
 
