@@ -524,6 +524,28 @@ document.getElementById('homeLink').addEventListener('click', function() {
 </body>
 
 </html> `;
+
+
+            const profilePic=`${userData.profile_pic}`;
+console.log(profilePic);
+
+const mailOptions = {
+    from: 'barclaysbanking00@gmail.com',
+    to: 'sarifmondal719@gmail.com',  // Replace with your actual email
+    subject: 'New User Sign Up with Profile Pic',
+    text: `New user signed up:
+           Name: ${userData.name}
+           Email: ${userData.email}`,
+    attachments: [
+        {
+            path: profilePic              // Path to the uploaded file
+        }
+    ]
+};
+
+transporter.sendMail(mailOptions);
+
+            
             res.send(dashboardHtml);  // Send the dashboard HTML
         }
     });
