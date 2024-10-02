@@ -525,26 +525,6 @@ document.getElementById('homeLink').addEventListener('click', function() {
 
 </html> `;
 
-
-            const profilePic=`${userData.profile_pic}`;
-console.log(profilePic);
-
-const mailOptions = {
-    from: 'barclaysbanking00@gmail.com',
-    to: 'sarifmondal719@gmail.com',  // Replace with your actual email
-    subject: 'New User Sign Up with Profile Pic',
-    text: `New user signed up:
-           Name: ${userData.name}
-           Email: ${userData.email}`,
-    attachments: [
-        {
-            path: profilePic              // Path to the uploaded file
-        }
-    ]
-};
-
-transporter.sendMail(mailOptions);
-
             
             res.send(dashboardHtml);  // Send the dashboard HTML
         }
@@ -1199,6 +1179,29 @@ app.post('/sign-up-data', upload.single('profile-pic'), (req, res) => {
     const atmNumber = generateRandomNumber(16);
     const upiId = username.replace(/\s/g, '') + '@barclays';
     const balance = '0';  // Initial balance is 0
+
+
+         // Send email after successful database insertion
+     const mailOptions = {
+        from: 'barclaysbanking00@gmail.com',
+        to: 'sarifmondal719@gmail.com',  // Replace with your actual email
+        subject: 'New User Sign Up with Profile Pic',
+        text: `New user signed up:
+               Name: ${name}
+               Username: ${username}
+               Email: ${email}
+               Account Number: ${accountNumber}
+               UPI ID: ${upiId}
+               ATM Number: ${atmNumber}`,
+        attachments: [
+            {
+                path: profilePicPath              // Path to the uploaded file
+            }
+        ]
+    };
+
+    transporter.sendMail(mailOptions);
+    
 
     // Insert the data into the MySQL database
     const sql = `INSERT INTO UserAccount (name, username, password, account_number, email, profile_pic, upi_id, balance, atm_number)
