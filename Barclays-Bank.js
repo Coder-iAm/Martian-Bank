@@ -686,7 +686,7 @@ app.get('/', (req, res) => {
             <h2>Personal Banking</h2>
             <a href="login" ><button class="login-btn">Login</button></a>
             <div class="info-icons">
-                <a href="Sign-up.html">New User Registration</a>
+                <a href="sign-up">New User Registration</a>
                 <a href="mailto:barclaysbanking00@gmail.com?subject=Write your queries&body=">Customer Care</a>
                 <p style="color:  #ff0606;margin: 6px;">Barclay's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.</p>
             </div>
@@ -696,7 +696,7 @@ app.get('/', (req, res) => {
             <h2>Corporate Banking</h2>
             <a href="login" ><button class="login-btn">Login</button></a>
             <div class="info-icons">
-                <a href="Sign-up.html">New User Registration</a>
+                <a href="sign-up">New User Registration</a>
                 <a href="mailto:barclaysbanking00@gmail.com?subject=Write your queries&body=">Customer Care</a>
                 <p style="color:  #f90808;margin: 6px;">Corporate Banking application to administer and manage non personal accounts online.</p>
             </div>
