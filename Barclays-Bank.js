@@ -19,7 +19,7 @@ app.use(session({
     secret: process.env.secret,
     resave: false, //Save for one time   
     saveUninitialized: true,//empty data saving
-    cookie: { secure: true }//http only 
+    cookie: { secure: false }//http only 
 })
 );
 
