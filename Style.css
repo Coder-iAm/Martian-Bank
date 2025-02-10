@@ -34,7 +34,7 @@ body {
 .logo h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 25px;
-    color: rgb(0, 157, 255);
+    color: rgba(242, 4, 4, 0.992);
     margin-left: 20px; /* Adjust spacing between logo and heading */
 }
 
